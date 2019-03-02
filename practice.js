@@ -20,7 +20,7 @@ var lovesCode = true;
 
 //Create a variable called greatestFear that is undefined because we fear nothing
 
-var greatestFear = ;
+var greatestFear = 
 
 //////////////////PROBLEM 5////////////////////
 
@@ -45,9 +45,7 @@ function greeting(greeting) {
 //Rewrite the function greeting as a function expression.
 //Name it newGreeting.
 
-funtion  newGreeting() {
-
-;}
+funtion newGreeting();
 
 //////////////////PROBLEM 8////////////////////
 
@@ -95,7 +93,7 @@ function nameCheck(name) {
   if(name === "Steven") {
     return "what is up Steven?";
   }
-  if else(name === "Bryan") {
+  else if(name === "Bryan") {
     return "Hey Bryan!";
   }
   else {
@@ -131,10 +129,10 @@ function faveColorFinder(str) {
   if(str === "red") {
     return "red is a great color";
   }
-  if else(str === "green") {
+  else if(str === "green") {
     return "great is a solid favoritecolor";
   }
-  if else(str === "black") {
+  else if(str === "black") {
     return "so trendy";
   }
   else {
