@@ -20,7 +20,7 @@ var lovesCode = true;
 
 //Create a variable called greatestFear that is undefined because we fear nothing
 
-var greatestFear = 
+var greatestFear = undefined;
 
 //////////////////PROBLEM 5////////////////////
 
@@ -35,8 +35,8 @@ var devMountainGoal = null;
 //greeting should return the string "Hello, "
 //plus the value of the name parameter.
 
-function greeting(greeting) {
-  return "Hello" + greeting;
+function greeting( greeting ) {
+  return "Hello, " + greeting;
 }
 
 
@@ -45,14 +45,14 @@ function greeting(greeting) {
 //Rewrite the function greeting as a function expression.
 //Name it newGreeting.
 
-funtion newGreeting();
+function newGreeting() {};
 
 //////////////////PROBLEM 8////////////////////
 
 //Rewrite the function greeting as an arrow function.
 //Name it finalGreeting.
 
-//Code Here
+...
 
 //////////////////PROBLEM 9////////////////////
 
@@ -182,7 +182,10 @@ let age = 24
 // FLASH FORWARD TO NEXT YEAR
 // reassign the value of age to be one greater than it was, because, we all get older
 
-let age = 25
+age = 25
+
 // Good news! We can live forever. Set your age to 999
 
-let age = 999
+age = 999
+//
+
